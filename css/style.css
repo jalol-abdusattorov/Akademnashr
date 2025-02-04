@@ -1,0 +1,160 @@
+/* SITE-HEADER */
+.siteheader {
+    background-color: #fff;
+}
+
+
+/* SITENAV */
+.sitenav-list {
+    list-style: none;
+}
+
+.sitenav-link {
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 15.23px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* MAIN-LINK */
+.main-link {
+    font-size: 13px;
+    line-height: 15px;
+    color: #fff;
+    background-color: #fd7500;
+    text-decoration: none;
+}
+
+
+/* HERO */
+.hero {
+    background-color: #252420;
+    color: #fff;
+}
+
+.hero-content {
+    width: 390;
+}
+
+.orange-line {
+    width: 80px;
+    height: 3px;
+    color: #ff7500;
+    background-color: #ff7500;
+}
+
+.hero-heading {
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+.hero-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.hero-img {
+    width: 510px;
+    height: 510px;
+}
+
+/* FEATURES */
+.features-heading {
+    width: 440px;
+    font-size: 72px;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+}
+
+.features-icon-wrapper {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 117, 0, 0.2);
+
+}
+
+
+/* FEATURE */
+.feature {
+    width: 340px;
+}
+
+.features-title {
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+.features-info {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+
+/* PROMO */
+.promo {
+    background: #252420;
+    color: #fff;
+}
+
+.promo-content {
+    width: 440;
+}
+
+.promo-heading {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.5px;  
+}
+
+.promo-text {
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+.promo-highlight {
+    color: #ff7500;   
+}
+
+.promo-text-selling {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.promo-img {
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+}
+
+
+/* SITE-FOOTER */
+.site-footer {
+    background-color: #f8f8f8;
+}
+
+.site-footer ul {
+    list-style: none;
+}
+
+.site-footer-divider {
+    background-color: rgba(37, 36, 32, 0.5);
+    height: 2px;
+    
+}
+
+.site-footer-links {
+    width: 224px;
+    text-decoration: none;
+    color: rgba(37, 36, 32, 1);
+}
+
