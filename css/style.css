@@ -3,19 +3,29 @@
     background-color: #fff;
 }
 
-
-/* SITENAV */
-.sitenav-list {
-    list-style: none;
+body {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.5px;
 }
 
+body ul {
+    font-family: "Roboto", serif;
+    list-style: none;
+    font-weight: 400;
+}
+
+/* SITENAV */
 .sitenav-link {
+    font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     font-size: 13px;
     line-height: 15.23px;
     letter-spacing: 1px;
     text-decoration: none;
     color: #000;
+    font-weight: 500;
 }
 
 
@@ -26,6 +36,7 @@
     color: #fff;
     background-color: #fd7500;
     text-decoration: none;
+    font-family: "Roboto", serif;
 }
 
 
@@ -35,8 +46,18 @@
     color: #fff;
 }
 
-.hero-content {
-    width: 390;
+.hero-heading {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: "Robot Condensed", "Arial", sans-serif;
+}
+
+.hero-title {
+    font-family: "Robot Condensed", "Arial", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
 }
 
 .orange-line {
@@ -46,18 +67,6 @@
     background-color: #ff7500;
 }
 
-.hero-heading {
-    font-size: 40px;
-    line-height: 1.2;
-    letter-spacing: 0.5px;
-}
-
-.hero-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
-}
-
 .hero-img {
     width: 510px;
     height: 510px;
@@ -65,10 +74,11 @@
 
 /* FEATURES */
 .features-heading {
-    width: 440px;
+    width: 440px; 
     font-size: 72px;
-    letter-spacing: 0.5px;
     line-height: 1.2;
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+    letter-spacing: 0.5px;
 }
 
 .features-icon-wrapper {
@@ -84,18 +94,11 @@
     width: 340px;
 }
 
-.features-title {
+.feature-title {
     font-size: 24px;
     line-height: 1.2;
-    letter-spacing: 0.5px;
+    font-family: "Roboto Condensed", "Arial", sans-serif;
 }
-
-.features-info {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
-}
-
 
 /* PROMO */
 .promo {
@@ -110,24 +113,11 @@
 .promo-heading {
     font-size: 40px;
     line-height: 48px;
-    letter-spacing: 0.5px;  
-}
-
-.promo-text {
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.5px;
+    font-family: "Roboto Condensed", "Arial", sans-serif;
 }
 
 .promo-highlight {
     color: #ff7500;   
-}
-
-.promo-text-selling {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.5px;
 }
 
 .promo-img {
@@ -142,10 +132,6 @@
     background-color: #f8f8f8;
 }
 
-.site-footer ul {
-    list-style: none;
-}
-
 .site-footer-divider {
     background-color: rgba(37, 36, 32, 0.5);
     height: 2px;
@@ -154,7 +140,10 @@
 
 .site-footer-links {
     width: 224px;
+    line-height: 19px ;
     text-decoration: none;
     color: rgba(37, 36, 32, 1);
+    font-family: "Roboto", serif;
+    list-style: none;   
 }
 
