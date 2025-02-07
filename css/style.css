@@ -60,6 +60,11 @@ body ul {
     letter-spacing: 0.5px;
 }
 
+.hero-text {
+    width: 387px;
+    height: 96px;
+}
+
 .orange-line {
     width: 80px;
     height: 3px;
@@ -111,9 +116,16 @@ body ul {
 }
 
 .promo-heading {
+    width: 373px;
+    height: 96px;
     font-size: 40px;
     line-height: 48px;
     font-family: "Roboto Condensed", "Arial", sans-serif;
+}
+
+.promo-text {
+    width: 440px;
+    height: 48px;
 }
 
 .promo-highlight {
