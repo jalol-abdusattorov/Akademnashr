@@ -1,9 +1,29 @@
+*:focus {
+    outline: 2px dotted #ff7500;
+    outline-offset: 3px;
+}
+
 /* SITE-HEADER */
 .siteheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: centerx    ;
     background-color: #fff;
 }
 
-body {
+.logo-link {
+    transition: opacity 0.4s ease;
+}
+
+.logo-link:hover {
+    opacity: 0.8;
+}
+
+.logo-link:active {
+    opacity: 0.5;
+}
+
+body p {
     font-size: 16px;
     line-height: 24px;
     font-family: "Roboto", sans-serif;
@@ -18,25 +38,48 @@ body ul {
 
 /* SITENAV */
 .sitenav-link {
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
     font-size: 13px;
-    line-height: 15.23px;
-    letter-spacing: 1px;
+    line-height: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
     text-decoration: none;
     color: #000;
-    font-weight: 500;
+    transition: color 0.4s ease,
+    opacity 0.4s ease;
 }
 
+.sitenav-link:hover {
+    color: #ff7500;
+}
+
+.sitenav-link:active {
+    opacity: 0.6;
+}
+
+
+.site-header-actions {
+    display: flex;
+    align-items: center;
+}
 
 /* MAIN-LINK */
 .main-link {
     font-size: 13px;
     line-height: 15px;
     color: #fff;
-    background-color: #fd7500;
+    background-color: #ff7500;
     text-decoration: none;
     font-family: "Roboto", serif;
+    transition: opacity 0.4s ease;
+}
+
+.main-link:hover {
+    opacity: 0.8;
+}
+
+.main-link:active {
+    opacity: 0.6;
 }
 
 
@@ -53,10 +96,10 @@ body ul {
 }
 
 .hero-title {
-    font-family: "Robot Condensed", "Arial", sans-serif;
-    font-size: 40px;
     font-weight: 700;
     line-height: 1.2;
+    font-size: 40px;
+    font-family: "Robot Condensed", "Arial", sans-serif;
     letter-spacing: 0.5px;
 }
 
@@ -144,6 +187,23 @@ body ul {
     background-color: #f8f8f8;
 }
 
+.site-footer-socials {
+    display: flex;
+    align-items: center;
+}
+
+.site-footer-socials a {
+    color: #252420;
+}
+
+.site-footer-socials a:hover {
+    color: #ff7500;
+}
+
+.site-footer-socials a:active {
+    opacity: 0.6;
+}
+
 .site-footer-divider {
     background-color: rgba(37, 36, 32, 0.5);
     height: 2px;
@@ -156,6 +216,15 @@ body ul {
     text-decoration: none;
     color: rgba(37, 36, 32, 1);
     font-family: "Roboto", serif;
-    list-style: none;   
+    list-style: none;
+    transition: color 0.4s ease,
+    opacity 0.4s ease;
 }
 
+.site-footer-links:hover {
+    color: #ff7500;
+}
+
+.site-footer-links:active {
+    opacity: 0.6;
+}
